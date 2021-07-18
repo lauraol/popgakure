@@ -1,0 +1,175 @@
+/*desktop*/
+@media screen and (min-width: 1024px) and (max-width: 1499px) {
+  div.container {
+    background-image: none;
+    background-color: #e48348;
+    padding: 5% 5% 5% 5%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  p.text {
+    text-align: center;
+    width: 100%;
+  }
+
+  div.container-capture-lead {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  h2 {
+    font-size: 40px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  img#naruto-img {
+    display: inline-block;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    padding: 2% 0 2% 0;
+    width: 350px;
+    padding-left: 2%;
+    margin-bottom: 2%;
+  }
+
+  button {
+    padding: 2% 0 2% 0;
+  }
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  div.container {
+    background-image: none;
+    background-color: #e48348;
+    padding: 5% 5% 5% 5%;
+  }
+
+  h1 {
+    font-size: 120px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  p.text {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+  }
+
+  div.container-capture-lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  h2 {
+    font-size: 35px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  img#naruto-img {
+    display: inline-block;
+  }
+
+  input {
+    padding: 2% 0 2% 0;
+    width: 350px;
+    padding-left: 2%;
+    margin-bottom: 2%;
+  }
+
+  button {
+    padding: 2% 0 2% 0;
+  }
+
+  footer p.text-footer {
+    font-size: 15px;
+  }
+}
+
+/*smartphone*/
+@media screen and (max-width: 767px) {
+  div.container {
+    background-image: none;
+    background-color: #e48348;
+    padding: 5% 5% 5% 5%;
+  }
+
+  h1 {
+    font-size: 80px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  p.text {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+  }
+
+  div.container-capture-lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  h2 {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  img#naruto-img {
+    display: inline-block;
+    width: 300px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    padding: 5% 0 5% 0;
+    width: 350px;
+    padding-left: 5%;
+    margin-bottom: 2%;
+  }
+
+  button {
+    padding: 3% 0 3% 0;
+  }
+
+  footer p.text-footer {
+    font-size: 15px;
+    padding: 5% 0 5% 0;
+  }
+}
