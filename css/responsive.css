@@ -21,6 +21,8 @@
 
   div.container-capture-lead {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 5%;
   }
@@ -31,24 +33,26 @@
     margin-top: 0px;
   }
 
-  img#naruto-img {
-    display: inline-block;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-
   input {
     padding: 2% 0 2% 0;
-    width: 350px;
+    width: 450px;
     padding-left: 2%;
     margin-bottom: 2%;
   }
 
   button {
     padding: 2% 0 2% 0;
+  }
+
+  div.card-funko-pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #1e4387;
+    border-radius: 15px;
+    width: 300px;
+    height: 465px;
   }
 }
 
@@ -89,10 +93,6 @@
     margin-top: 0px;
   }
 
-  img#naruto-img {
-    display: inline-block;
-  }
-
   input {
     padding: 2% 0 2% 0;
     width: 350px;
@@ -106,6 +106,29 @@
 
   footer p.text-footer {
     font-size: 15px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  div.card-funko-pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #1e4387;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 2%;
   }
 }
 
@@ -171,5 +194,28 @@
   footer p.text-footer {
     font-size: 15px;
     padding: 5% 0 5% 0;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  div.card-funko-pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #1e4387;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 2%;
   }
 }
