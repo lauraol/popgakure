@@ -1,4 +1,4 @@
-# 🍃 Landing page Popgakure 🍃
+# Popgakure 🍥🍂
 
 Lading page responsiva criada com HTML5, CSS3 e Javascript para o primeiro desafio do bootcamp Hiring Coders da Gama Academy. A página tem o intuito de divulgar produtos e capturar leads.
  
